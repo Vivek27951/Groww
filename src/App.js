@@ -14,7 +14,11 @@ import Home from "./components/Home";
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-slate-300">
+    <div
+      className="min-h-screen"
+      style={{ background: "linear-gradient( #9198e5 ,#00d09c)" }}
+    >
+      {/* <div className="min-h-screen bg-slate-100"> */}
       <div className="p-10">
         <div className="flex justify-center">
           <img src={Groww} alt="Groww" className="w-10" />
