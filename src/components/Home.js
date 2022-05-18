@@ -17,7 +17,7 @@ const Home = () => {
               className="w-40 border-2 rounded-full"
             />
             <div className="flex items-center justify-center ml-2">
-              <div className="font-semibold tracking-widest text-white text-7xl">
+              <div className="text-5xl font-semibold tracking-widest text-white md:text-8xl">
                 Groww
               </div>
             </div>
@@ -30,7 +30,7 @@ const Home = () => {
         </div>
         <div className="flex flex-col items-center p-20">
           <div>
-            <div className="font-serif text-xl italic text-white">
+            <div className="font-serif text-2xl italic text-white">
               tu bhi invest kar na bro!
             </div>
             <div className="font-sans text-5xl">
