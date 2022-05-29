@@ -1,16 +1,29 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 const navbar = () => {
+  const NavLinkStyle = ({ isActive }) => {
+    return {
+      color: isActive ? "#00d09c" : "black",
+      fontWeight: isActive ? "bold" : "normal",
+    };
+  };
+
   return (
     <div className="flex text-xl font-medium list-none">
       <li className="px-5 hover:text-[#00d09c]">
-        <Link to="/Stocks">Stocks</Link>
+        <NavLink to="/Stocks" style={NavLinkStyle}>
+          Stocks
+        </NavLink>
       </li>
       <li className="px-5 hover:text-[#00d09c]">
-        <Link to="/mutualFunds">Mutual Funds</Link>
+        <NavLink to="/mutualFunds" style={NavLinkStyle}>
+          Mutual Funds
+        </NavLink>
       </li>
       <li className="px-5 hover:text-[#00d09c]">
-        <Link to="/Gold">Gold</Link>
+        <NavLink to="/Gold" style={NavLinkStyle}>
+          Gold
+        </NavLink>
       </li>
     </div>
   );
