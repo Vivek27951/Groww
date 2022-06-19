@@ -42,7 +42,7 @@ const App = () => {
           <img src={Groww} alt="Groww" className="w-10" />
           <div className="flex items-center justify-center ml-2">
             <div className="text-3xl font-semibold tracking-widest text-neutral-700">
-              Groww
+              Groww :)
             </div>
           </div>
         </div>
